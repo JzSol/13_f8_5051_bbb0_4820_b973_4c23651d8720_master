@@ -1,6 +1,8 @@
 import { Dispatch, SetStateAction, useState } from 'react';
 import { Input } from './Input';
 
+import './Main.scss';
+
 interface Props {
   setIsClicked: Dispatch<SetStateAction<boolean>>;
 }
@@ -9,7 +11,7 @@ export const Main: React.FC<Props> = ({ setIsClicked }) => {
   const [input, setInput] = useState('Type your email address here…');
 
   return (
-    <main className='main'>
+    <div className='containers'>
       <h1 className='newsletter'>Subscribe to newsletter</h1>
       <div className='info'>
         Subscribe to our newsletter and get 10% discount on pineapple glasses.
@@ -23,6 +25,6 @@ export const Main: React.FC<Props> = ({ setIsClicked }) => {
           I agree to <a className='terms'>terms of service</a>
         </label>
       </div>
-    </main>
+    </div>
   );
 };

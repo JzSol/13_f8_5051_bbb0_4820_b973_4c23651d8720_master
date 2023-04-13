@@ -59,3 +59,51 @@
     border: none;
   }
 }
+
+@media (max-width: 760px) {
+  .emailinput {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    left: 40px;
+    top: 146px;
+
+    background: #ffffff;
+    border: 1px solid #e3e3e4;
+    &::placeholder {
+      // position: absolute;
+      width: 227px;
+      height: 24px;
+      left: 59px;
+      top: 418px;
+
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #6a707b;
+    }
+  }
+  .inputrect {
+    position: absolute;
+    width: 4px;
+    height: 60px;
+    left: 40px;
+    top: 146px;
+
+    background: #4066a5;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    left: 296px;
+    top: 169px;
+    opacity: 0.3;
+  }
+}

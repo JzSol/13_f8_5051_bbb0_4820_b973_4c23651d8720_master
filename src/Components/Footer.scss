@@ -137,3 +137,16 @@
     background-repeat: no-repeat;
   }
 }
+@media (max-width: 760px) {
+  .rectangle {
+    width: 295px;
+    height: 1px;
+    left: 40px;
+    top: 274px;
+  }
+  .socials {
+    gap: 10px;
+    left: 73px;
+    top: 295px;
+  }
+}

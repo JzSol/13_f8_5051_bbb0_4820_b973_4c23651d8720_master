@@ -10,7 +10,7 @@ export const App = () => {
   const [isclicked, setIsClicked] = useState(false);
 
   return (
-    <>
+    <div className='desktop'>
       <div className='background'></div>
 
       <div className='infopage'>
@@ -23,9 +23,11 @@ export const App = () => {
           ))}
         </header>
 
-        <Main setIsClicked={setIsClicked} />
-        <Footer />
+        <main className='main'>
+          <Main setIsClicked={setIsClicked} />
+          <Footer />
+        </main>
       </div>
-    </>
+    </div>
   );
 };
