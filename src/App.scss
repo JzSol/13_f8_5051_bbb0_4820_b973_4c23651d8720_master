@@ -1,0 +1,149 @@
+.infopage {
+  position: absolute;
+  width: 680px;
+  height: 1080px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+}
+
+.background {
+  position: absolute;
+  width: 1620px;
+  height: 1080px;
+  left: 680px;
+  top: 0px;
+
+  background-image: url('/Image/image_summer.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+
+  gap: 9px;
+
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 118px;
+  height: 40px;
+  margin-right: 103px;
+  background-image: url('/Image/logo_pineapple.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.button {
+  display: flex;
+
+  background-color: transparent;
+  border: 1px solid transparent;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6a707b;
+}
+
+.newsletter {
+  position: absolute;
+  width: 399px;
+  height: 44px;
+  left: 140px;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 374px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+
+  color: #131821;
+}
+
+.info {
+  position: absolute;
+  width: 400px;
+  height: 56px;
+  left: 140px;
+  top: 433px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #6a707b;
+}
+
+.Tos {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+
+  width: 400px;
+  height: 28px;
+  left: 140px;
+  top: 662px;
+}
+
+.checkbox {
+  width: 26px;
+  height: 26px;
+  left: 140px;
+  top: 663px;
+
+  background: #4066a5;
+  border-radius: 3px;
+
+  &text {
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 181px;
+    top: 662px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #6a707b;
+  }
+}
+
+.terms {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-decoration-line: underline;
+
+  cursor: pointer;
+  color: #131821;
+
+  &:hover {
+    color: #4066a5;
+  }
+
+  &:active {
+    color: #233759;
+  }
+}

@@ -1,0 +1,61 @@
+.emailinput {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 663px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+
+  background: #ffffff;
+  border: 1px solid #e3e3e4;
+
+  &:hover {
+    border: 1px solid #4066a5;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+  }
+}
+
+.emailinput::placeholder {
+  height: 24px;
+  top: 562px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-indent: 40px;
+
+  color: #6a707b;
+}
+
+.inputrect {
+  position: absolute;
+  width: 4px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+
+  background: #4066a5;
+}
+
+.arrow {
+  position: absolute;
+  width: 24px;
+  height: 14px;
+  left: 699px;
+  top: 567px;
+  background-color: transparent;
+  border: none;
+
+  opacity: 0.3;
+
+  background-image: url('/Image/ic_arrow.svg');
+
+  &:hover {
+    cursor: pointer;
+    background-image: url('/Image/hoverarr.svg');
+    border: none;
+  }
+}
